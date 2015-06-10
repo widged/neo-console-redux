@@ -1,0 +1,22 @@
+wgt_package({
+  "description": "An autocomplete renderer with previous and next navigation.",
+  "main": "NeoConsole.js",
+  "author": {
+    "name": "Marielle Lange",
+    "web": "http://www.widged.com"
+  },
+  "dependencies": {
+    "js":  [
+      "template/Template",
+      "dom-component/DomComponent",
+      "async-pipe/AsyncPipe",
+      "../neo4j-console-react/vendors/react/react",
+      "../neo4j-console-react/vendors/thirdparty/es5-shim.min",
+      "../neo4j-console-react/vendors/thirdparty/es5-sham.min",
+      "../neo4j-console-react/vendors/thirdparty/console-polyfill",
+      "../neo4j-console-react/NeoConsoleReact",
+      "../neo4j-console-react/NeoConsoleWrapper"
+    ],
+    "css": [ ]
+  }
+});
