@@ -16,11 +16,13 @@ To embed in the document:
         { 
             onLoad: runQueries, 
             onData: function(data) { console.log(data); },
-            consoleUrl: consoleUrl 
+            consoleUrl: 'http://neo4j-console-22.herokuapp.com/' 
         }
     ), document.getElementById('console'));
 
 And to query:
     
-    rConsole.setProps({callId: 1, queries: [queries.createData]});
+    function runQueries() {
+        rConsole.setProps({callId: 1, queries: [queries.createData]});
+    }
 
