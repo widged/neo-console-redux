@@ -1,0 +1,26 @@
+{
+  "name": "neo-console-redux",
+  "version": "1.0.0",
+  "description": "Minimal example of how to embed a neo-console captured into a react component",
+  "main": "main.es6.js",
+  "scripts": {
+    "test": "npm run unittest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/widged/neo-console-redux.git"
+  },
+  "keywords": [
+    "neo4j"
+  ],
+  "author": "Marielle <mlange@widged.com> (http://widged.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/widged/neo-console-redux/issues"
+  },
+  "homepage": "https://github.com/widged/neo-console-redux#readme",
+  "dependencies": {
+    "react": "^0.14.0",
+    "react-dom": "^0.14.0"
+  }
+}
